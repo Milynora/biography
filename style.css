@@ -1,0 +1,116 @@
+/* BODY */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    color: #333;
+}
+
+/* MAIN CONTAINER */
+.main-container {
+    max-width: 650px;
+    margin: 40px auto;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+/* HEADER */
+.header {
+    background: #C6DEFF;
+    text-align: center;
+    padding: 20px 15px;
+}
+
+.header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 2.2rem;
+}
+
+.header h3 {
+    margin: 4px 0 0 0;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+/* PROFILE SECTION */
+.profile {
+    text-align: center;
+    padding: 25px 20px;
+}
+
+.profile img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px 0;
+}
+
+.profile p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* HR */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 15px 0;
+}
+
+/* INFO SECTION */
+.info {
+    display: flex;
+    gap: 15px;
+    padding: 15px 20px 25px;
+}
+
+/* INFO BOXES */
+.education,
+.hobbies {
+    flex: 1;
+    background: #C6DEFF;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+/* TITLES */
+.education h4,
+.hobbies h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-left: 22px;
+    text-align: left;
+}
+
+/* BULLETED LISTS */
+.info ul {
+    list-style-position: outside;
+    padding-left: 38px;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: left;
+}
+
+.info li {
+    margin-bottom: 6px;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 15px;
+}
+
+.portfolio {
+    font-weight: bold;
+    color: blue;
+    text-decoration: none;
+}
+
+.portfolio:hover {
+    text-decoration: underline;
+}
